@@ -4,7 +4,7 @@
 <h3>The basics</h3>
 <b>OpenGL</b> <br /><br />
 
-[ 1 ] https://www.opengl.org/archives/resources/code/samples/win32_tutorial/
+[ 1 ] https://www.opengl.org/archives/resources/code/samples/win32_tutorial/ - A good old tutorial. And you can download the entire repo with demos to your hard drive in ZIP. This is a good place to start implementing OpenGL for the first run. To check if it works.
 <br /><br />
 <b>OpenCL</b> <br /><br />
 
