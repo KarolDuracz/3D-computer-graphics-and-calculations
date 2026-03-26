@@ -2,7 +2,7 @@
 
 
 <h3>The basics</h3>
-<b></b>OpenGL</b> <br /><br />
+<b>OpenGL</b> <br /><br />
 
 [ 1 ] https://www.opengl.org/archives/resources/code/samples/win32_tutorial/
 <br /><br />
