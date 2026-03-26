@@ -7,7 +7,7 @@ https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/O
 <br /><br />
 https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenGL/demo1/main.cpp#L1605 -     const std::wstring manifestPath1 = L"C:\\Windows\\Temp\\f1carmodel\\test_p00.bmp";
 <br /><br />
-These are the places where I've changed the paths to HARD CODE because there are errors at the moment. But I don't really need it right now to have textures, so... But if someone else wants to run it, I'll have to change it.
+These are the places where I've changed the paths to HARD CODE because there are errors at the moment. But I don't really need it right now to have textures, so... But if someone else wants to run it, You have to change it.
 <h3>OpenGL - demo1 - Load OBJ files from Blender</h3>
 
 A demo to explore some of the basic mechanisms that OpenGL offers. There's only support for Blender .obj files. There's also a parser, and an attempt to implement texture loading from MTL and FSH. FSH sometimes works for some models at the moment... sometimes not. MTL doesn't. That's why there's Custom Texture, which creates a BMP file, which can be painted and then loaded onto a selected model.
