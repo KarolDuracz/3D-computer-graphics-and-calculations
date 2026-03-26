@@ -7,6 +7,11 @@
 A demo to explore some of the basic mechanisms that OpenGL offers. There's only support for Blender .obj files. There's also a parser, and an attempt to implement texture loading from MTL and FSH. FSH sometimes works for some models at the moment... sometimes not. MTL doesn't. That's why there's Custom Texture, which creates a BMP file, which can be painted and then loaded onto a selected model.
 <br /><br />
 <b>Everything needs some fine tuning, but this is a purely educational demo for exploring OpenCL and GPU computing.</b> THIS IS NOT A DEMO THAT SHOWS HOW TO DO SOMETHING LIKE THIS. It's purely educational for me. But it's okay enough that I'm sharing it here.
+<br /><br />
+
+> [!NOTE]
+> You can load multiple models into a scene and select them from the GUI menu on the right. You can then change position and rotation. You can also control lighting. Click the buttons on the right in the menu. Select from the top Model > Load Obj . After launch, the first thing you see is a MessageBox window with an OBJ loading error. But press OK and then load models into a scene that way.
+
 
 <h3>Setup and configuration - This is wrong but this is my setup method </h3>
 
