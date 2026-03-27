@@ -9,7 +9,8 @@
 <b>OpenCL</b> <br /><br />
 
 [ 1 ] https://developer.download.nvidia.com/compute/DevZone/docs/html/OpenCL/doc/OpenCL_Best_Practices_Guide.pdf) <br />
-[ 2 ] https://github.com/sschaetz/nvidia-opencl-examples/tree/master - NVIDIA samples OpenCL repo from this link https://developer.nvidia.com/opencl There are ready-to-run programs and source code. Techniques and a mix of OpenGL and OpenCL are shown. Very helpful.
+[ 2 ] https://github.com/sschaetz/nvidia-opencl-examples/tree/master - NVIDIA samples OpenCL repo from this link https://developer.nvidia.com/opencl There are ready-to-run programs and source code. Techniques and a mix of OpenGL and OpenCL are shown. Very helpful. <br />
+[ 3 ] https://bashbaug.github.io/OpenCL-Docs/pdf/OpenCL_API.pdf - Here is one PDF that has what can be found on the website like https://registry.khronos.org/OpenCL/sdk/3.0/docs/man/html/clGetPlatformInfo.html At the end there are implementation examples.
 <br /><br />
 <b>CUDA</b> <br /><br />
 
