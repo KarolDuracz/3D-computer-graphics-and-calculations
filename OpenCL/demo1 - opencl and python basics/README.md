@@ -160,5 +160,3 @@ Pictures from test 3
 
 Nice explanation - https://medium.com/data-science/a-complete-beginners-guide-to-matrix-multiplication-for-data-science-with-python-numpy-9274ecfc1dc6 and nice picture
 
-
-
