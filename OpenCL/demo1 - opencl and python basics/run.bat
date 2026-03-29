@@ -1,0 +1,1 @@
+cl /LD /O2 calc.c /Fe:calc.dll

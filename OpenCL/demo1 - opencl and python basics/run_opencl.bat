@@ -1,0 +1,1 @@
+cl /LD /O2 opencl_demo.c /Fe:opencl_demo.dll /I"C:\Users\kdhome\OpenCL-SDK\clGPU-master\clGPU-master\common\intel_ocl_icd\windows\include" 
