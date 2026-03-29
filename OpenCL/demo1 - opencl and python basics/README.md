@@ -158,3 +158,7 @@ Pictures from test 3
 ![dump](https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/transpose%20test.png?raw=true)
 
 
+Nice explanation - https://medium.com/data-science/a-complete-beginners-guide-to-matrix-multiplication-for-data-science-with-python-numpy-9274ecfc1dc6 and nice picture
+
+
+
