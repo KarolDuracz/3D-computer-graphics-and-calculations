@@ -44,7 +44,7 @@ This is the result we expect. Looks ok.
 Ok, time for opencl. Kernels are loaded as strings https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/opencl_demo.c#L15
 <br /><br />
 
-Runs
+Run
 
 ```
 pyhon opencl_demo.py
@@ -136,7 +136,7 @@ tensor([[ 8, 11, 11,  4],
         [28, 43, 37, 18]])
 ```
 
-Runs
+Run
 
 ```
 python opencl_demo_matrix.py
