@@ -262,7 +262,7 @@ https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/O
 <h3>How to run it, how I ran this test? </h3>
 
 1. First, I'm using the "fixed" version from this repo. I run it with the command I provided there: ``` python app2.py --out_dir=out-shakespear-char --device=cpu --port=5000 ```
-The web application has 1 line and 1 sample, because that's how many samples the kernel can calculate for shape x (1, 48, 384).- THIS IS IMPORTANT! - https://github.com/KarolDuracz/Machine-Learning/tree/main/1%20-%20nanoGPT%20web%20interface%20to%20generate%20samples%20from%20input/fixes
+The web application has 1 line and 1 sample, because that's how many samples the kernel can calculate for shape x (1, 48, 384).- THIS IS IMPORTANT! - https://github.com/KarolDuracz/Machine-Learning/tree/main/1%20-%20nanoGPT%20web%20interface%20to%20generate%20samples%20from%20input/fixes - so with this kernel that only does ( 1, 48, 384 ) it can only process 1 line, 1 sample. That's why I wrote "hard code" at the top.
 <br /><br />
 So the kernel's hard code doesn't allow you to manipulate tensors like you can in pytorch. But as I wrote, I was interested in testing it out first.
 <br /><br />
