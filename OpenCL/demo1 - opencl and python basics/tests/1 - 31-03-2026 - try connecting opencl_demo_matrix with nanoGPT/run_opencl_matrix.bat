@@ -1,0 +1,1 @@
+cl /LD /O2 opencl_demo_matrix.c /Fe:opencl_demo_matrix.dll /I"C:\Users\kdhome\OpenCL-SDK\clGPU-master\clGPU-master\common\intel_ocl_icd\windows\include" /link /STACK:16777216,4096
