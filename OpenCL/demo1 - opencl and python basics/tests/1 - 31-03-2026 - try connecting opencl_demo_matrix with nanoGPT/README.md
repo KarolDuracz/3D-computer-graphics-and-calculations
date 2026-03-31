@@ -41,7 +41,11 @@ run_xwt_b status = 0.0
 -0.7380750179290771 <class 'float'>
 ```
 
-<br /><br />
+Important is line do ``` test and 10 to compare  tensor([[[-1.8915,  0.6764, ``` 
+and results from ``` -1.8915358781814575 <class 'float'> ```
+<b>This is what interests me most about this test. The results of what nanoGPT does vs. the openCL kernel.</b>
+<br />
+
 ![dump](https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/415%20-%2031-03-2026%20-%20mix%20with%20nanoGPT.png?raw=true)
 
 This is a log from the terminal that is displayed after starting the server with the command ``` python app2.py --out_dir=out-shakespear-char --device=cpu --port=5000 ``` 
