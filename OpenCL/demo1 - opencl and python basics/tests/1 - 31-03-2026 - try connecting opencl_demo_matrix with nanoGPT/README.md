@@ -11,7 +11,10 @@ Specifically, the kernel executes this one line. That is, it takes ``` x ```
 and ``` self.c_fc.weight ```
 and makes ``` x @ self.c_fc.weight.T ```
 opencl kernel - line 168 in model.py 
-
+<br /><br />
+Technically, the kernel is supposed to replace this, because both functions are executed in the code. The point is that the OpenCL kernel is implicitly used in this demo to validate the results for this one specific line: ``` x = self.c_fc(x) ```
+to take the X that goes into this c_fc function, then take the weight from c_fc., i.e. the parameters to XW + B. And do the same thing as the original ``` x = self.c_fc(x) ```
+and compare the results. And that's what's shown below in the image in red.
 
 https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/model.py#L168
 
