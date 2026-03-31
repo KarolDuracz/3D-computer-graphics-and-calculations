@@ -271,3 +271,8 @@ So the kernel's hard code doesn't allow you to manipulate tensors like you can i
 3. If I didn't write something, the rest is explained on the first page, where I did initial tests for ``` app.py ```
 , ``` opencl_demo.py ```
 , ``` opencl_demo_matrix.py ```
+
+<h3>Summary</h3>
+If you came here expecting a ready-made solution, unfortunately I don't have one. I'm just starting to dig into this myself. But it looks like something is working. You can pass results FROM A TRAINED MODEL!!! This is a "pretrained" model loaded with parameters. Not in training loop, only in sampling mode. It seems that this way you can transfer some parameters and write kernels that execute what the Python code (model.py originally) does on the GPU using the OpenCL API. But this requires some review.
+<br /><br />
+// 31-03-2026
