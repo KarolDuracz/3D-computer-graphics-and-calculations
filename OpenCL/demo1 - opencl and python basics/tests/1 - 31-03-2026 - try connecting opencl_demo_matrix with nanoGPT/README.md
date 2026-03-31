@@ -241,6 +241,16 @@ https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/O
 <br /><br />
 Then there are logs, and on line 178 there is a dead loop to stop for debug.
 <br /><br />
+THIS IS IMPORTANT. Size ``` out2 = (ct.c_float * (73728))() ```
+Why is it hardcoded 73728 here? That's for this ( 1536, 384 ), which is the size of W. I think I forgot to display that in the code. But you can check it. 
+<br /><br />
+Then ``` out2 ```
+is passed to ``` run_xwt_b ```
+on line 158. At the top of the file on line 24 are ``` dll.run_xwt_b.argtypes = (ct.POINTER(ct.c_float), ct.POINTER(ct.c_float), ct.POINTER(ct.c_int), ct.POINTER(ct.c_float),) ```
+defined parameters and construction of function types
+<br /><br />
+https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/model.py#L145
+<br /><br />
 <b>4 . Setup for DLL in model.py </b><br /><br />
 is at the top, lines 18 - 2
 <br /><br />
