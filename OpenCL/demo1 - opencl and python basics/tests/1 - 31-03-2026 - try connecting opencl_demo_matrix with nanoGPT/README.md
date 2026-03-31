@@ -7,7 +7,7 @@
 
 <h3>HARD CODE attempt to connect opencl kernel to 1 line of code from nanoGPT for tests</h3>
 
-Specifically, the kernel executes this first line. That is, it takes ``` x ```
+Specifically, the kernel executes this one line. That is, it takes ``` x ```
 and ``` self.c_fc.weight ```
 and makes ``` x @ self.c_fc.weight.T ```
 opencl kernel - line 168 in model.py 
@@ -161,8 +161,8 @@ torch.Size([1, 19, 1536])
 <b>1 . OSError: exception: stack overflow - solution</b> <br /><br />
 Okay, so let's get started. The program throws the error "OSError: exception: stack overflow" in such large arrays.
 <br /><br />
-I checked the initial steps, including using EDITBIN and checking the DUMBIN information. It was impossible to change the program's stack settings with these tools. The remaining size was 1 MB. The solution turned out to be creating a thread (CreateThread API). In C code, this function is called "StartWork."
-You can specify a STACK SIZE parameter larger than 1 MB. Look at line 44 in https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/opencl_demo_matrix.c#L44
+I checked the initial steps, including using EDITBIN and checking the DUMPBIN information. It was impossible to change the program's stack settings with these tools. The remaining size was 1 MB. The solution turned out to be creating a thread (CreateThread API). In C code, this function is called "StartWork."
+You can specify a STACK SIZE parameter larger than 1 MB. Look at line 44 ( and this is not 8 but 32 MB as in the comment ) in https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/opencl_demo_matrix.c#L44
 <br /><br />
 https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread
 <br /><br />
