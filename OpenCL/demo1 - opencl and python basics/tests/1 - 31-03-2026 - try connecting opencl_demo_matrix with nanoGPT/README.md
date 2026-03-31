@@ -20,7 +20,7 @@
 > #define N 1536
 > 
 > But this needs to be checked when the actual implementation is done. I'm looking at the log below and I see "show information about p_clCreateBuffer
-> 65536 128 128" - that's why the hard code needs to be changed, but for now  the first tests to see if it works at all and calculates correctly
+> 65536 128 128" - that's why the hard code needs to be changed, but for now  the first tests to see if it works at all and calculates correctly . After changing the N K M there should be something like 73728 48 384 in this log. Something like that
 
 <h3>HARD CODE attempt to connect opencl kernel to 1 line of code from nanoGPT for tests</h3>
 
