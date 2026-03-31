@@ -228,12 +228,12 @@ Thread is called. There's a lot of junk here, code in #if <> #endif tags etc. Th
 <br /><br />
 https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/opencl_demo_matrix.c#L787
 <br /><br />
-When the thread has done its work, it returns to line 972 ``` return run_kernel_custom("matmul_xwt_bias", X, W, B, out); ```
+When the thread has done its work, it returns to line 927 ``` return run_kernel_custom("matmul_xwt_bias", X, W, B, out); ```
 Parameters are passed. Let's take a look at how parameters are passed between these functions.
 <br /><br />
 https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/opencl_demo_matrix.c#L927C2-L927C60
 <br /><br />
-The same applies to the first entry from the horizontal Python code into the DLL, which calls ``` EXPORT int API run_xwt_b(float *arr, float *arrW, int *in, float* out) ```
+The same applies to the first entry from the Python code into the DLL, which calls ``` EXPORT int API run_xwt_b(float *arr, float *arrW, int *in, float* out) ```
 on line 787. There are 4 arguments here. Here, ``` x ```
 and ``` self.c_fc.weight ```
 <br /><br />
