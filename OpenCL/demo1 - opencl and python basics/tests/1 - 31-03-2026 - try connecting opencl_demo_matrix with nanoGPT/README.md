@@ -232,7 +232,7 @@ Preparing arrays for the appropriate types is a topic I need to explore further.
 <b>3 . Go to model.py </b><br /><br />
 
 On line 158, it begins: ``` rc2 = dll.run_xwt_b(c_int_array, c_int_arrayW, inp_val, out2) ```
-This is the input to the DLL function. Then, on lines 160-164, it reads 36 values ​​from the console, which the kernel returns to C, i.e., what it calculated, and outputs them as OUT. This is the result of the OpenCl kernel calculations. And that's what's displayed here; I just set it to 36 (it's probably 10 earlier in the demo).
+This is the entry point to the DLL function. Then, on lines 160-164, it reads 36 values ​​from the console, which the kernel returns to C, i.e., what it calculated, and outputs them as OUT. This is the result of the OpenCl kernel calculations. And that's what's displayed here; I just set it to 36 (it's probably 10 earlier in the demo).
 <br /><br />
 https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/model.py#L158
 <br /><br />
