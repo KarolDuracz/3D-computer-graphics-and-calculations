@@ -5,7 +5,7 @@
 > There aren't full files here. There are only the ones I've modified and need to be replaced. For instructions on how to compile or run it, read below or on the first page of this repo.
 
 > [!IMPORTANT]
-> BŁĘDY itp. !
+> BUGS etc. !
 > https://github.com/KarolDuracz/3D-computer-graphics-and-calculations/blob/main/OpenCL/demo1%20-%20opencl%20and%20python%20basics/tests/1%20-%2031-03-2026%20-%20try%20connecting%20opencl_demo_matrix%20with%20nanoGPT/opencl_demo_matrix.c#L17
 > I see an error. I didn't change the values ​​from the previous test to a 128 x 128 random array. This is the kernel for nanoGPT: " const int ROWS = 48;", " const int IN_K > = 384;", " const int COLS = 1536;". And these values ​​should be set.
 > 
